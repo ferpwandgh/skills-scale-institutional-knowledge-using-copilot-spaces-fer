@@ -14,6 +14,16 @@ OctoAcme projects are delivered through a structured lifecycle that emphasizes c
 - **Data-informed**: Measure impact and iterate based on evidence
 - **Psychological safety**: Encourage feedback and learning
 
+## OctoAcme Project Management Processes — Summary
+
+OctoAcme follows a structured, lifecycle-based approach to project delivery that prioritizes customer value, iterative delivery, and clear ownership. The organization is guided by five core principles: customer-first thinking, incremental delivery of testable features, designated Project Managers (PMs) and Product Leads for every project, data-informed decision-making, and psychological safety for team feedback. Projects flow through five distinct phases—Initiation, Planning, Execution, Release, and Close & Retrospective—with clearly defined roles including Developers, Product Managers, Project Managers, QA/Testing teams, and Stakeholders. This structure ensures that every project begins with validated business needs and measurable success criteria before moving forward.
+
+During initiation and planning, OctoAcme emphasizes lightweight but rigorous documentation. New projects start with a Project One-pager that captures the problem statement, objectives, success metrics, stakeholder list, timeline, risks, and team composition. Once approved, the planning phase breaks work into prioritized, estimated backlog items with clear acceptance criteria and a Definition of Done. The team identifies dependencies and integration points, creating a release plan with milestone markers. Communication cadences are structured around weekly syncs between PM and Product Manager, twice-weekly standups for delivery teams, and monthly stakeholder updates, with ad-hoc escalations following a three-level path from team-level triage through PM to Product Lead to Sponsor.
+
+Execution and quality assurance are managed through a project board workflow (Backlog → Ready → In Progress → In Review → QA → Done) with small pull requests (≤400 lines preferred), automated CI/CD testing, linting, and security scanning. The team conducts daily standups focused on progress and blockers, weekly delivery syncs to review progress and risks, and demos at sprint or milestone ends. Quality gates include unit tests, integration tests, end-to-end smoke tests, and manual QA for feature acceptance when needed. Risk management is continuous, with a Risk Register tracking ID, description, impact, likelihood, owner, and mitigation status—reviewed weekly during syncs.
+
+Finally, OctoAcme emphasizes learning and continuous improvement through structured retrospectives held after sprints, releases, or important milestones. Release processes are standardized with pre-release checklists, staging deployment verification, and rollback playbooks to reduce production risk. Post-project, the team captures learnings in retrospectives focused on what went well, areas for improvement, and actionable next steps with clear owners and due dates. This commitment to measuring impact and iterating on process improvements creates a culture of transparency, accountability, and operational excellence across all cross-functional projects.
+
 ## Project Lifecycle & Guides
 
 ### 1. Initiation
